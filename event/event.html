@@ -1,0 +1,427 @@
+﻿<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<script src="https://kit.fontawesome.com/6e217c1e23.js" crossorigin="anonymous"></script> 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="jquery.numscroller-1.0.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <script src="js/bootstrap.min.js"></script>
+<style>
+body{font-family: sans-serif;}
+.jumbotron{background-color:black;padding:20px;}
+.jumbotron h3{font-size:50px;margin-top:-5px;font-family:'Sofia';}
+.jumbotron h3 a{color:ff0a80;}
+.jumbotron h3 a:hover{text-decoration:none;}
+.navbar-nav{position:sticky;topfont-family:verdana;float:right;margin-top:-80px;font-size:15px;}
+.navbar-nav li a{color:white;transition: 0.3s;:background-color 0.5s;}
+.navbar-nav li a:hover{background-color:ff0a80; animation-timing-function: linear;}
+
+.slider
+{
+margin-top:-30px;
+width:100%;
+height:500px;
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+-webkit-animation-name:t1;
+-webkit-animation-duration:10s;
+-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes t1
+{
+0%{background-image:url('event20service.png');}
+25%{background-image:url('photo-1527529482837-4698179dc6ce.jpg');}
+50%{background-image:url('photo-1525272149490-82288cb110a0.jpg');}
+100%{background-image:url('1.jpg');}
+
+
+}
+.content1 h2{font-size:50px;font-weight:bold;text-align:center;margin-top:40px;font-family:'Allert Stencil';color:ff0a80;}
+.content1 p{font-size:20px;font-family:verdana;text-align:center;word-spacing:12px;}
+.content2 p{font-size:15px;margin-top:20px;line-height:30px;}
+.row1 .col-lg-4{z-index:1;height:180px;border-right:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5;margin-top:40px;}
+.row1 .col-lg-4:hover{color:white;z-index:1;background-color:#5e5e5e;}
+.row2 .col-lg-4:hover{color:white;z-index:1;background-color:#5e5e5e;}
+.row1 .col-lg-4:last-child{border-right:none;}
+.row2 .col-lg-4:last-child{border:none;}
+.row2 .col-lg-4{z-index:1;height:180px;border-right:1px solid #d5d5d5;}
+.row1 .col-lg-4 h4, .row2 .col-lg-4 h4
+{
+font-size:30px;
+font-weight:bold;
+font-family:verdana;
+color:ff0a80;
+}
+
+.content5{width:100%;height:500px;background-image:url('Wedding-Reception-Wallpaper-17.jpg');background-attachment:fixed;margin-top:100px;background-size:100% 100%;}
+.content5 h2
+{color:white;text-align:center;padding:50px;font-size:40px;font-family:sans-serif;}
+.content5 h4
+{
+text-align:center;
+color:white;
+font-family:tahoma;
+margin-top:-40px;
+letter-spacing:5px;
+font-size:18px;
+}
+.row3
+{
+padding:100px;
+}
+.row3 .col-lg-4
+{
+font-weight:bold;
+text-align:center;
+color:#ff0a80;
+font-size:40px;
+z-index:1;
+}
+.row3 .col-lg-4 h5
+{
+color:white;
+font-size:30px;
+
+}
+
+.content6 h2
+{font-size:50px;font-weight:bold;text-align:center;margin-top:40px;font-family:'Allert Stencil';color:ff0a80;}
+.content6 p
+{
+letter-spacing:5px;
+font-size:15px;
+font-family:tahoma;
+text-align:center;
+word-spacing:12px;
+}
+.row4 .col-lg-6, .row5 .col-lg-6
+{
+z-index:-1;
+height:180px;
+border-right:5px solid white;
+border-bottom:5px solid white;
+margin-top:40px;
+}
+.row4 .col-lg-6, .row5 .col-lg-6 h3
+{
+color:#ff0a80;
+text-align:center;
+}
+.content7
+{
+width:100%;height:550px;background-image:url('event20service.png');background-attachment:fixed;margin-top:200px;background-size:100% 100%;
+}
+.content7 h1
+{font-size:50px;text-align:center;margin-top:40px;font-family:'verdana';color:white;}
+.content7 p
+{
+letter-spacing:5px;
+font-size:15px;
+font-family:tahoma;
+text-align:center;
+word-spacing:12px;
+color:white;
+}
+.booking
+{
+height:350px;
+background-color:white;
+}
+.booking h1
+{
+font-family:sofia;
+padding:20px;
+background-color:#ff0a80;
+}
+
+.row6 .col-lg-4 input
+{
+
+padding:20px;
+height:60px;
+width:100%;
+}
+.row7{margin-top:100px;}
+.row7 .col-lg-4 input
+{
+
+padding:20px;
+height:60px;
+width:100%;
+}
+.content7 .booking .btn
+{
+width:30%;
+margin-left:400px;
+margin-top:20px;
+font-family:verdana;
+padding:10px;
+color:white;
+background-color:#ff0a80;
+}
+span
+{
+font-size:100px;
+}
+.btn:hover{
+color:white;
+}
+
+.content8 h2
+{font-size:50px;font-weight:bold;text-align:center;margin-top:40px;font-family:'Allert Stencil';color:ff0a80;}
+.content8 p
+{
+letter-spacing:5px;
+font-size:15px;
+font-family:tahoma;
+text-align:center;
+word-spacing:12px;
+}
+.footer
+{
+color:white;
+padding:40px;
+bottom:0px;
+height:340px;
+background-color:black;
+}
+.footer .row8 .col-lg-3 p
+{
+margin-top:30px;
+line-height:20px;
+text-align:left;
+color:gray;
+font-size:13px;
+}
+.footer .row8 .col-lg-3 p a:hover
+{
+text-decoration:none;
+}
+.footer .row8 .col-lg-3 input
+{
+width:100%;
+padding:10px;
+}
+.footer .row8 .col-lg-3 .btn
+{
+width:40%;
+margin-left:0px;
+margin-top:20px;
+background-color:#ff0a80;
+}
+.footer .row8 .col-lg-3 .btn:hover
+{
+color:white;
+}
+.wells
+{
+padding:20px;
+background-color:#171616;
+color:white;
+}
+.wells p 
+{
+font-size:12px;
+text-align:left;
+}
+.img-rounded
+{
+margin-right:20px;
+margin-top:-30px;
+float:right;
+}
+@media only screen and (max-width: 600px) 
+{
+.content5
+{
+height:800px;
+}
+.footer
+{
+height:800px;
+}
+.content7
+{
+height:1000px;
+}
+.booking
+{
+height:800px;
+}
+.jumbotron
+{
+height:120px;
+}
+.navbar-nav
+{
+margin-top:-150px;
+}
+.img-rounded
+{
+margin-top:10px;
+}
+}</style>
+<body><div class="jumbotron">
+<div class="container">
+<h3><a href="#">Events</a></h3></div></div>
+<div class="container">
+
+	<ul class="nav navbar-nav">
+      
+      <li><a href="#">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+	</div>
+	<div class="slider"></div>
+<div class="content1">
+<h2>Welcome</h2>
+<p>Events Is A Professionally Managed Event</p>
+<hr style="width:10%;border:2px solid black;border-radius:50px">
+<div class="content2">
+<div class="container">
+<p>Event planning requires foresight, follow through and attention to detail. You need to see the big picture as well as the tiniest of details. You need Vision. Which is why we started Vision Event Management. We wanted to create a company with the experience, skills and knowledge to help any event, no matter how large or how small, fulfill its ultimate potential.
+</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row1">
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Birthday</h4>
+<p></p></div>
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Sangeet</h4><p></p></div>
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Weddings</h4><p></p></div>
+</div>
+<hr style="color:gray;">
+<div class="row2">
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Photography</h4></div>
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Catering</h4></div>
+<div class="col-lg-4"><span class="fa fa-birthday-cake"></span><h4>Informations</h4></div>
+</div>
+</div>
+
+<div class="content5">
+<h2>We Have Something to be proud of</h2>
+<h4>Events Is A Professionally Managed Event</h4>
+<div class="container">
+<div class="row3">
+<div class="col-lg-4">
+<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='2500' data-delay='3' data-increment="2">2500</div>
+<h5>Happy Clients</h5>
+</div>
+<div class="col-lg-4">
+<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='1000' data-delay='3' data-increment="2">1000</div>
+<h5>Events</h5>
+</div>
+<div class="col-lg-4">
+<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='300' data-delay='3' data-increment="2">3241</div>
+<h5>Services</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="content6">
+<h2>Services</h2>
+<p>Events Is A Professionally Managed Event</p>
+<hr style="width:10%;border:2px solid black;border-radius:50px">
+
+</div>
+<div class="row4">
+<div class="col-lg-6"><h3>Birthday</h3>
+<img src="shutterstock_351007121.jpg" class="rounded" width="100%" height="100%">
+</div>
+<div class="col-lg-6"><h3>Wedding</h3>
+<img src="pexels-photo-1444442.jpeg" class="rounded" width="100%" height="100%">
+
+</div>
+
+</div>
+<div class="row5">
+<div class="col-lg-6"><h3>Sangeet</h3>
+<img src="t30_ladies-sangeet-gautam-khullar.jpg" class="rounded" width="100%" height="100%">
+</div>
+<div class="col-lg-6"><h3>Catering</h3>
+<img src="1 (1).jpg" width="100%" height="100%">
+</div>
+
+</div>
+</div>
+<div class="content7">
+<div class="container">
+<h1>Event Booking</h1>
+<p>Events Is A Professionally Managed Event</p>
+<div class="booking">
+<h1>Online Event Booking</h1>
+<div class="row6">
+<div class="col-lg-4">
+<input type="Location" name="Location" placeholder="Location" required></div>
+<div class="col-lg-4">
+<input type="Date" name="name" placeholder="dd-mm-yyyy" required></div>
+<div class="col-lg-4">
+<input type="time" name="name" placeholder="__:__" required></div></div>
+<div class="row7">
+<div class="col-lg-4">
+<input type="text" name="name" placeholder="Name" required></div>
+<div class="col-lg-4">
+<input type="text" name="name" placeholder="Phone No." required></div>
+<div class="col-lg-4">
+<input type="text" name="name" placeholder="Email" required>
+</div></div>
+<button type="button" class="btn">Book Now</button>
+</div>
+
+</div>
+</div>
+<div class="content8">
+<h2>Event Manager Says</h2>
+<p>Events Is A Professionally Managed Event</p>
+
+<hr style="width:10%;border:2px solid black;border-radius:50px">
+
+</div><div class="footer">
+<div class="container">
+<div class="row8">
+<div class="col-lg-3">
+<h4>ABOUT US</h4>
+<p>Our unparalleled Event Management Specialists know how to plan, promote and run an event that will exceed your goals.
+
+</p>
+</div>
+<div class="col-lg-3"><h5>GET IN TOUCH</h5>
+<p>For Booking and Services Contact Us:</p>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<p style="margin-top:-20px;margin-left:20px;">ITS mohan nagar, Ghaziabad </p>
+<i class="fa fa-phone" aria-hidden="true"></i>
+<p style="margin-top:-20px;margin-left:20px;">7827382445  </p>
+<i class="fa fa-envelope" aria-hidden="true"></i>
+<p style="margin-top:-20px;margin-left:20px;"><a href="" style="color:gray;">jigyasa.ch24@gmail.com</a></p>
+
+</div>
+<div class="col-lg-3"><h5>LATEST EVENTS</h5>
+<img src="https___media.insider.in_image_upload_c_crop,g_custom_v1519627962_vltlogy23k1iid9pjffx.jpg" style="margin-top:20px;" width="100%" class="img-rounded">
+</div>
+<div class="col-lg-3"><h5>SUBSCRIBE</h5>
+<p>For subscribe:</p>
+<input type="text" placeholder="Enter Your Email">
+<button type="button" class="btn">SUBSCRIBE</button>
+</div>
+</div>
+</div>
+</div>
+<div class="wells">
+<div class="container">
+<p>© 2019 Events. All rights reserved | Design by Lalit</p>
+<a href=""><img src="facebook_logos_PNG19757.png" class="img-rounded"  width="40" height="40"></a> 
+<a href=""><img src="twitter_PNG9.png" class="img-rounded" alt="Cinque Terre" width="40" height="40"></a> 
+<a href=""><img src="google-logo-png-symbol-5.png" class="img-rounded" alt="Cinque Terre" width="40" height="40"></a> 
+
+</div>
+</div>
+
+</body>
+</html>
